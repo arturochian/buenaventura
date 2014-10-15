@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Linkbase basada en XBRL Versión 2.1.
+Creado por la Superintendencia del Mercado de Valores del Perú (SMV) © 2011-2012. 
+Generador de taxonomías para Excel 2.7.4. de Reporting Estándar S.L.
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-310010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-310010" />
+  <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" />
+  <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" />
+  <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" />
+  <link:arcroleRef xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" />
+  <link:definitionLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-310010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareLineItems" xlink:label="lbl4823" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareTable" xlink:label="lbl4824" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4823" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xbrldt:closed="true" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:type="arc" xbrldt:contextElement="scenario" xlink:to="lbl4824" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ClassesOfOrdinarySharesAxis" xlink:label="lbl4825" xlink:type="locator" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_AccionesDeInversionMiembro" xlink:label="lbl4826" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4825" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:to="lbl4826" order="20" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OrdinarySharesMember" xlink:label="lbl4827" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4825" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="arc" xlink:to="lbl4827" order="10" />
+    <link:definitionArc xlink:from="lbl4824" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="arc" xlink:to="lbl4825" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsPerShareAbstract" xlink:label="lbl4828" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShare" xlink:label="lbl4829" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4828" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4829" order="50.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsPerShareAbstract" xlink:label="lbl4830" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShare" xlink:label="lbl4831" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4830" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4831" order="90.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromContinuingOperations" xlink:label="lbl4832" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4830" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4832" order="70.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromDiscontinuedOperations" xlink:label="lbl4833" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4828" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4833" order="40.0" />
+    <link:definitionArc xlink:from="lbl4823" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4828" order="20.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromDiscontinuedOperations" xlink:label="lbl4834" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4830" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4834" order="80.0" />
+    <link:definitionArc xlink:from="lbl4823" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4830" order="60.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromContinuingOperations" xlink:label="lbl4835" xlink:type="locator" />
+    <link:definitionArc xlink:from="lbl4828" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="arc" xlink:to="lbl4835" order="30.0" />
+  </link:definitionLink>
+</link:linkbase>
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Linkbase basada en XBRL Versión 2.1.
+Creado por la Superintendencia del Mercado de Valores del Perú (SMV) © 2011-2012. 
+Generador de taxonomías para Excel 2.7.4. de Reporting Estándar S.L.
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-210010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-210010" />
+  <link:calculationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-210010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentAssets" xlink:label="lbl4693" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IntangibleAssetsOtherThanGoodwill" xlink:label="lbl4694" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4694" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Assets" xlink:label="lbl4695" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentAssets" xlink:label="lbl4696" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4695" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4696" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TradeAndOtherCurrentReceivables" xlink:label="lbl4697" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCurrentReceivables" xlink:label="lbl4698" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4697" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4698" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TradeAndOtherCurrentReceivablesDueFromRelatedParties" xlink:label="lbl4699" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4697" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4699" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentLiabilities" xlink:label="lbl4700" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentProvisionsForEmployeeBenefits" xlink:label="lbl4701" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4701" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentPayables" xlink:label="lbl4702" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_AccrualsClassifiedAsNoncurrent" xlink:label="lbl4703" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4702" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4703" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentPayablesToTradeSuppliers" xlink:label="lbl4704" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4702" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4704" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TradeAndOtherCurrentPayables" xlink:label="lbl4705" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TradeAndOtherCurrentPayablesToTradeSuppliers" xlink:label="lbl4706" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4705" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4706" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EquityAndLiabilities" xlink:label="lbl4707" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Liabilities" xlink:label="lbl4708" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4707" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4708" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="lbl4709" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale" xlink:label="lbl4710" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4709" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4710" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentAssetsOtherThanAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners" xlink:label="lbl4711" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentBiologicalAssets" xlink:label="lbl4712" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4712" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentLiabilities" xlink:label="lbl4713" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentLiabilitiesOtherThanLiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" xlink:label="lbl4714" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4713" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4714" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Equity" xlink:label="lbl4715" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4707" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4715" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForDistributionToOwners" xlink:label="lbl4716" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4709" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4716" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InvestmentsInSubsidiariesJointVenturesAndAssociates" xlink:label="lbl4717" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4717" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DeferredTaxLiabilities" xlink:label="lbl4718" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4718" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InvestmentProperty" xlink:label="lbl4719" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4719" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentProvisionsForEmployeeBenefits" xlink:label="lbl4720" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4720" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherEquityInterest" xlink:label="lbl4721" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4721" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TreasuryShares" xlink:label="lbl4722" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4722" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DeferredIncomeClassifiedAsNoncurrent" xlink:label="lbl4723" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4702" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4723" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentReceivables" xlink:label="lbl4724" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4724" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherNoncurrentFinancialAssets" xlink:label="lbl4725" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4725" />
+    <link:calculationArc xlink:from="lbl4708" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4713" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_RetainedEarnings" xlink:label="lbl4726" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4726" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentTaxLiabilitiesCurrent" xlink:label="lbl4727" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4727" />
+    <link:calculationArc xlink:from="lbl4708" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4700" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DeferredIncomeClassifiedAsCurrent" xlink:label="lbl4728" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4705" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4728" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4702" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherNoncurrentNonfinancialLiabilities" xlink:label="lbl4729" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4729" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCurrentFinancialLiabilities" xlink:label="lbl4730" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4730" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCurrentNonfinancialAssets" xlink:label="lbl4731" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4731" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Goodwill" xlink:label="lbl4732" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4732" />
+    <link:calculationArc xlink:from="lbl4695" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4693" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentTradeReceivables" xlink:label="lbl4733" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4697" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4733" />
+    <link:calculationArc xlink:from="lbl4696" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4709" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TradeAndOtherCurrentPayablesToRelatedParties" xlink:label="lbl4734" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4705" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4734" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentTaxAssetsCurrent" xlink:label="lbl4735" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4735" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentBiologicalAssets" xlink:label="lbl4736" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4736" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Inventories" xlink:label="lbl4737" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4737" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentPayablesToRelatedParties" xlink:label="lbl4738" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4702" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4738" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PropertyPlantAndEquipment" xlink:label="lbl4739" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4739" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CurrentPrepayments" xlink:label="lbl4740" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4697" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4740" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4705" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentPrepayments" xlink:label="lbl4741" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4724" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4741" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashAndCashEquivalents" xlink:label="lbl4742" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4742" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_AccrualsClassifiedAsCurrent" xlink:label="lbl4743" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4705" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4743" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4697" />
+    <link:calculationArc xlink:from="lbl4696" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4711" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherShorttermProvisions" xlink:label="lbl4744" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4744" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherReserves" xlink:label="lbl4745" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4745" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherNoncurrentNonfinancialAssets" xlink:label="lbl4746" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4746" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCurrentFinancialAssets" xlink:label="lbl4747" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4711" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4747" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_SharePremium" xlink:label="lbl4748" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4748" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCurrentNonfinancialLiabilities" xlink:label="lbl4749" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4714" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4749" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentTradeReceivables" xlink:label="lbl4750" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4724" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4750" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IssuedCapital" xlink:label="lbl4751" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4751" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_AccionesDeInversion" xlink:label="lbl4752" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4715" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4752" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherNoncurrentFinancialLiabilities" xlink:label="lbl4753" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4753" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_NoncurrentReceivablesDueFromRelatedParties" xlink:label="lbl4754" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4724" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4754" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherLongtermProvisions" xlink:label="lbl4755" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4700" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4755" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale" xlink:label="lbl4756" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4713" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4756" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DeferredTaxAssets" xlink:label="lbl4757" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4693" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4757" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherNoncurrentReceivables" xlink:label="lbl4758" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4724" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4758" />
+  </link:calculationLink>
+</link:linkbase>
+

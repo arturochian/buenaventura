@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-610010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-610010" />
+  <link:calculationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-610010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ChangesInEquity" xlink:label="lbl5220" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsDeclaredAndPaidOrPayable" xlink:label="lbl5221" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5221" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncome" xlink:label="lbl5222" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncome" xlink:label="lbl5223" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5222" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5223" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTreasuryShareTransactions" xlink:label="lbl5224" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5224" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesEquity" xlink:label="lbl5225" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5225" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherDistributionsToOwners" xlink:label="lbl5226" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5226" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5222" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IssueOfEquity" xlink:label="lbl5227" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5227" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl" xlink:label="lbl5228" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5228" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ReduccionOAmortizacionDeAccionesDeInversion" xlink:label="lbl5229" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5229" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="lbl5230" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5222" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5230" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherContributionsByOwners" xlink:label="lbl5231" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5220" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5231" />
+  </link:calculationLink>
+</link:linkbase>
+

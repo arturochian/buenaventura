@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Linkbase basada en XBRL Versión 2.1.
+Creado por la Superintendencia del Mercado de Valores del Perú (SMV) © 2011-2012. 
+Generador de taxonomías para Excel 2.7.4. de Reporting Estándar S.L.
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-310010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-310010" />
+  <link:presentationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-310010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareLineItems" xlink:label="lbl4759" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsPerShareAbstract" xlink:label="lbl4760" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4759" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4760" order="300.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossAbstract" xlink:label="lbl4761" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_FinanceIncome" xlink:label="lbl4762" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4762" order="130.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareTable" xlink:label="lbl4763" xlink:type="locator" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ClasesDeAccionesEje" xlink:label="lbl4764" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4763" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4764" order="260.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_AdministrativeExpense" xlink:label="lbl4765" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4765" order="70.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeStatementAbstract" xlink:label="lbl4766" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EarningsPerShareAbstract" xlink:label="lbl4767" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4766" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4767" order="240.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxExpenseContinuingOperations" xlink:label="lbl4768" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4768" order="200.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsPerShareAbstract" xlink:label="lbl4769" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4759" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4769" order="340.0" />
+    <link:presentationArc xlink:from="lbl4767" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4763" order="250.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DifferenceBetweenCarryingAmountOfDividendsPayableAndCarryingAmountOfNoncashAssetsDistributed" xlink:label="lbl4770" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4770" order="180.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossBeforeTax" xlink:label="lbl4771" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4771" order="190.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromDiscontinuedOperations" xlink:label="lbl4772" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4769" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4772" order="360.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_GainsLossesArisingFromDifferenceBetweenPreviousCarryingAmountAndFairValueOfFinancialAssetsReclassifiedAsMeasuredAtFairValue" xlink:label="lbl4773" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4773" order="170.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCost" xlink:label="lbl4774" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4774" order="80.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OrdinarySharesMember" xlink:label="lbl4775" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4764" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4775" order="270.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_GrossProfit" xlink:label="lbl4776" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4776" order="50.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromDiscontinuedOperations" xlink:label="lbl4777" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4760" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4777" order="320.0" />
+    <link:presentationArc xlink:from="lbl4766" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4761" order="20.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherGainsLosses" xlink:label="lbl4778" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4778" order="110.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShareFromContinuingOperations" xlink:label="lbl4779" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4769" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4779" order="350.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_FinanceCosts" xlink:label="lbl4780" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4780" order="140.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DilutedEarningsLossPerShare" xlink:label="lbl4781" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4769" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4781" order="370.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherIncome" xlink:label="lbl4782" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4782" order="90.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShareFromContinuingOperations" xlink:label="lbl4783" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4760" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4783" order="310.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_GainsLossesOnNetMonetaryPosition" xlink:label="lbl4784" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4784" order="150.0" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_AccionesDeInversionMiembro" xlink:label="lbl4785" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4764" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4785" order="280.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromContinuingOperations" xlink:label="lbl4786" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4786" order="210.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Revenue" xlink:label="lbl4787" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4787" order="30.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DistributionCosts" xlink:label="lbl4788" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4788" order="60.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromDiscontinuedOperations" xlink:label="lbl4789" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4789" order="220.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="lbl4790" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:to="lbl4790" order="230.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherExpenseByFunction" xlink:label="lbl4791" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4791" order="100.0" />
+    <link:presentationArc xlink:from="lbl4767" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4759" order="290.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_BasicEarningsLossPerShare" xlink:label="lbl4792" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4760" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4792" order="330.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherIncomeExpenseFromSubsidiariesJointlyControlledEntitiesAndAssociates" xlink:label="lbl4793" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4793" order="160.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLossFromOperatingActivities" xlink:label="lbl4794" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4794" order="120.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CostOfSales" xlink:label="lbl4795" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl4761" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl4795" order="40.0" />
+  </link:presentationLink>
+</link:linkbase>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Linkbase basada en XBRL Versión 2.1.
+Creado por la Superintendencia del Mercado de Valores del Perú (SMV) © 2011-2012. 
+Generador de taxonomías para Excel 2.7.4. de Reporting Estándar S.L.
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-510010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-510010" />
+  <link:calculationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-510010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsFromUsedInOperations" xlink:label="lbl4911" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReceiptsFromRentsAndSubsequentSalesOfSuchAssets" xlink:label="lbl4912" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4912" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsFromUsedInFinancingActivities" xlink:label="lbl4913" xlink:type="locator" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ReembolsoDePrestamosDeEntidadesRealcionadasClasificadosComoActividadesDeFinanciacion" xlink:label="lbl4914" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4914" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsToAcquireOrRedeemEntitysShares" xlink:label="lbl4915" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4915" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsFromUsedInInvestingActivities" xlink:label="lbl4916" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="lbl4917" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4917" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashReceiptsFromRepaymentOfAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities" xlink:label="lbl4918" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4918" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromIssuingShares" xlink:label="lbl4919" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4919" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReceiptsFromContractsHeldForDealingOrTradingPurpose" xlink:label="lbl4920" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4920" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities" xlink:label="lbl4921" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4921" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities" xlink:label="lbl4922" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4922" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseInCashAndCashEquivalents" xlink:label="lbl4923" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EffectOfExchangeRateChangesOnCashAndCashEquivalents" xlink:label="lbl4924" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4923" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4924" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_PrestamosRecibidosDeEntidadesRelacionadasClasificadosComoActividadesDeFinanciacion" xlink:label="lbl4925" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4925" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherInflowsOutflowsOfCashClassifiedAsFinancingActivities" xlink:label="lbl4926" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4926" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_PrestamosConcedidosAEntidadesRealcionadasClasificadosComoActividadesDeInversion" xlink:label="lbl4927" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4927" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReceiptsFromSalesOfGoodsAndRenderingOfServices" xlink:label="lbl4928" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4928" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities" xlink:label="lbl4929" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4929" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseInCashAndCashEquivalentsBeforeEffectOfExchangeRateChanges" xlink:label="lbl4930" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4930" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4913" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsFromUsedInOperatingActivities" xlink:label="lbl4931" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxesPaidRefundClassifiedAsOperatingActivities" xlink:label="lbl4932" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4932" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities" xlink:label="lbl4933" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4933" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities" xlink:label="lbl4934" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4934" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsReceivedClassifiedAsOperatingActivities" xlink:label="lbl4935" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4935" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_PagosRelacionadosALaCompraDeSubsidiariasNetoDelEfectivoDesapropiado" xlink:label="lbl4936" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4936" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InterestReceivedClassifiedAsOperatingActivities" xlink:label="lbl4937" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4937" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsReceivedClassifiedAsInvestingActivities" xlink:label="lbl4938" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4938" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InterestPaidClassifiedAsFinancingActivities" xlink:label="lbl4939" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4939" />
+    <link:calculationArc xlink:from="lbl4930" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4916" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" xlink:label="lbl4940" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4940" />
+    <link:calculationArc xlink:from="lbl4930" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4931" />
+    <link:calculationArc xlink:from="lbl4923" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4930" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromChangesInOwnershipInterestsInSubsidiaries" xlink:label="lbl4941" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4941" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromGovernmentGrantsClassifiedAsFinancingActivities" xlink:label="lbl4942" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4942" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivities" xlink:label="lbl4943" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4943" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ReembolsosRecibidosDePrestamosAEntidadesRelacionadasClasificadosComoActividadesDeInversion" xlink:label="lbl4944" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4944" />
+    <link:calculationArc xlink:from="lbl4931" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4911" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PurchaseOfOtherLongtermAssetsClassifiedAsInvestingActivities" xlink:label="lbl4945" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4945" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities" xlink:label="lbl4946" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4946" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashPaymentsToAcquireInterestsInJointVenturesClassifiedAsInvestingActivities" xlink:label="lbl4947" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4947" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsPaidClassifiedAsOperatingActivities" xlink:label="lbl4948" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4948" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsToManufactureOrAcquireAssetsHeldForRentalToOthersAndSubsequentlyHeldForSale" xlink:label="lbl4949" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4949" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsFromChangesInOwnershipInterestsInSubsidiaries" xlink:label="lbl4950" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4950" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashFlowsFromLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" xlink:label="lbl4951" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4951" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities" xlink:label="lbl4952" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4952" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InterestPaidClassifiedAsOperatingActivities" xlink:label="lbl4953" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4953" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_RepaymentsOfBorrowingsClassifiedAsFinancingActivities" xlink:label="lbl4954" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4954" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsToAndOnBehalfOfEmployees" xlink:label="lbl4955" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4955" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_CashAdvancesAndLoansMadeToOtherPartiesClassifiedAsInvestingActivities" xlink:label="lbl4956" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4956" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_InterestReceivedClassifiedAsInvestingActivities" xlink:label="lbl4957" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4957" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReceiptsFromRoyaltiesFeesCommissionsAndOtherRevenue" xlink:label="lbl4958" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4958" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromBorrowingsClassifiedAsFinancingActivities" xlink:label="lbl4959" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4959" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxesPaidRefundClassifiedAsInvestingActivities" xlink:label="lbl4960" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4960" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxesPaidRefundClassifiedAsFinancingActivities" xlink:label="lbl4961" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4961" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsFromContractsHeldForDealingOrTradingPurpose" xlink:label="lbl4962" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4962" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities" xlink:label="lbl4963" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4963" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsToSuppliersForGoodsAndServices" xlink:label="lbl4964" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4964" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsPaidClassifiedAsFinancingActivities" xlink:label="lbl4965" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4965" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashReceiptsFromSalesOfInterestsInJointVenturesClassifiedAsInvestingActivities" xlink:label="lbl4966" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4966" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsOfFinanceLeaseLiabilitiesClassifiedAsFinancingActivities" xlink:label="lbl4967" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4967" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromIssuingOtherEquityInstruments" xlink:label="lbl4968" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4968" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProceedsFromOtherLongtermAssetsClassifiedAsInvestingActivities" xlink:label="lbl4969" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4916" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4969" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherInflowsOutflowsOfCashClassifiedAsOperatingActivities" xlink:label="lbl4970" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4931" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4970" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashPaymentsFromOperatingActivities" xlink:label="lbl4971" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4971" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherCashReceiptsFromOperatingActivities" xlink:label="lbl4972" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4911" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4972" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_PaymentsOfOtherEquityInstruments" xlink:label="lbl4973" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl4913" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl4973" />
+  </link:calculationLink>
+</link:linkbase>
+

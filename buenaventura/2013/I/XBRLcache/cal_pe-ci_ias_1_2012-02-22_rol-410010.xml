@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Linkbase basada en XBRL Versión 2.1.
+Creado por la Superintendencia del Mercado de Valores del Perú (SMV) © 2011-2012. 
+Generador de taxonomías para Excel 2.7.4. de Reporting Estándar S.L.
+-->
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-410010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-410010" />
+  <link:calculationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-410010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTax" xlink:label="lbl5161" xlink:type="locator" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_VariacionNetaDeActivosNoCorrientesOGruposDeActivosMantenidosParaLaVenta" xlink:label="lbl5162" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5162" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncome" xlink:label="lbl5163" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncome" xlink:label="lbl5164" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5163" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5164" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability" xlink:label="lbl5165" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5165" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome" xlink:label="lbl5166" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5164" weight="-1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5166" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:label="lbl5167" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5167" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToHedgesOfNetInvestmentsInForeignOperationsOfOtherComprehensiveIncome" xlink:label="lbl5168" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5168" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxExchangeDifferencesOnTranslation" xlink:label="lbl5169" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5169" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="lbl5170" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5163" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5170" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToDefinedBenefitPlansOfOtherComprehensiveIncome" xlink:label="lbl5171" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5171" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToExchangeDifferencesOnTranslationOfOtherComprehensiveIncome" xlink:label="lbl5172" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5172" />
+    <link:calculationArc xlink:from="lbl5164" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5161" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToChangesInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityOfOtherComprehensiveIncome" xlink:label="lbl5173" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5173" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxActuarialGainsLossesOnDefinedBenefitPlans" xlink:label="lbl5174" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5174" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxHedgesOfNetInvestmentsInForeignOperations" xlink:label="lbl5175" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5175" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxGainsLossesFromInvestmentsInEquityInstruments" xlink:label="lbl5176" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5176" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:label="lbl5177" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5177" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncomeBeforeTaxCashFlowHedges" xlink:label="lbl5178" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5161" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5178" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToChangesInRevaluationSurplusOfOtherComprehensiveIncome" xlink:label="lbl5179" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5179" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncomeTaxRelatingToInvestmentsInEquityInstrumentsOfOtherComprehensiveIncome" xlink:label="lbl5180" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5180" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ImpuestosRelacionadosALaVariacionNetaDeActivosNoCorrientesOGruposDeActivosMantenidosParaLaVenta" xlink:label="lbl5181" xlink:type="locator" />
+    <link:calculationArc xlink:from="lbl5166" weight="+1" xlink:arcrole="http://www.xbrl.org/2003/arcrole/summation-item" xlink:type="arc" xlink:to="lbl5181" />
+  </link:calculationLink>
+</link:linkbase>
+

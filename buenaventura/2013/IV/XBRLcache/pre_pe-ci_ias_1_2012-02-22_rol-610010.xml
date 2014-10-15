@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#pe-ci_ias-1_2012-02-22_role-610010" xlink:type="simple" roleURI="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-610010" />
+  <link:presentationLink xlink:role="http://www.smv.gob.pe/pe/fr/ci/role/pe-ci_ias-1_2012-02-22_role-610010" xlink:type="extended">
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherReservesMember" xlink:label="lbl5182" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSaleMember" xlink:label="lbl5183" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5183" order="360.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_EquityMember" xlink:label="lbl5184" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_RetainedEarningsMember" xlink:label="lbl5185" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5185" order="300.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityLineItems" xlink:label="lbl5186" xlink:type="locator" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_PatrimonioReexpresado" xlink:label="lbl5187" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5186" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel" xlink:to="lbl5187" order="60.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ChangesInEquityAbstract" xlink:label="lbl5188" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiariesThatDoNotResultInLossOfControl" xlink:label="lbl5189" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5189" order="170.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfHedgesOfNetInvestmentInForeignOperationsMember" xlink:label="lbl5190" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5190" order="330.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncomeAbstract" xlink:label="lbl5191" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherComprehensiveIncome" xlink:label="lbl5192" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5191" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5192" order="100.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_TreasurySharesMember" xlink:label="lbl5193" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5193" order="280.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfGainsAndLossesFromInvestmentsInEquityInstrumentsMember" xlink:label="lbl5194" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5194" order="340.0" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5191" order="80.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ComponentsOfEquityAxis" xlink:label="lbl5195" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5195" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5184" order="240.0" />
+    <link:presentationArc xlink:from="lbl5186" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5188" order="70.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/deprecated/ifrs-depr_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughChangesInAccountingPolicies" xlink:label="lbl5196" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5186" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5196" order="40.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTransfersAndOtherChangesEquity" xlink:label="lbl5197" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5197" order="190.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherDistributionsToOwners" xlink:label="lbl5198" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5198" order="160.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_Equity" xlink:label="lbl5199" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel" xlink:to="lbl5199" order="210.0" />
+    <link:presentationArc xlink:from="lbl5186" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel" xlink:to="lbl5199" order="30.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfCashFlowHedgesMember" xlink:label="lbl5200" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5200" order="320.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_SharePremiumMember" xlink:label="lbl5201" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5201" order="260.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IssuedCapitalMember" xlink:label="lbl5202" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5202" order="250.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_OtherEquityInterestMember" xlink:label="lbl5203" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5203" order="290.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_DividendsDeclaredAndPaidOrPayable" xlink:label="lbl5204" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5204" order="120.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ComprehensiveIncome" xlink:label="lbl5205" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5191" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5205" order="110.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityAbstract" xlink:label="lbl5206" xlink:type="locator" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_StatementOfChangesInEquityTable" xlink:label="lbl5207" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5206" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5207" order="220.0" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_AccionesDeInversionMiembro" xlink:label="lbl5208" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5208" order="270.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ProfitLoss" xlink:label="lbl5209" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5191" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" preferredLabel="http://www.xbrl.org/2003/role/totalLabel" xlink:to="lbl5209" order="90.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughTreasuryShareTransactions" xlink:label="lbl5210" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5210" order="180.0" />
+    <link:presentationArc xlink:from="lbl5206" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5186" order="20.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfExchangeDifferencesOnTranslationMember" xlink:label="lbl5211" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5211" order="350.0" />
+    <link:presentationArc xlink:from="lbl5184" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5182" order="310.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_RevaluationSurplusMember" xlink:label="lbl5212" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5212" order="370.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughOtherContributionsByOwners" xlink:label="lbl5213" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5213" order="150.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_IssueOfEquity" xlink:label="lbl5214" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5214" order="130.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/deprecated/ifrs-depr_2011-03-25.xsd#ifrs_IncreaseDecreaseThroughCorrectionsOfErrors" xlink:label="lbl5215" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5186" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5215" order="50.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ChangesInEquity" xlink:label="lbl5216" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5216" order="200.0" />
+    <link:presentationArc xlink:from="lbl5207" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5195" order="230.0" />
+    <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2011-03-25/ifrs-cor_2011-03-25.xsd#ifrs_ReserveOfChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityMember" xlink:label="lbl5217" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5217" order="390.0" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ReduccionOAmortizacionDeAccionesDeInversion" xlink:label="lbl5218" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5188" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5218" order="140.0" />
+    <link:loc xlink:href="../comun/pe-ci_cor_2012-02-22.xsd#smv_ReservasALaGananciaPerdidaActuarialesEnPlanDeBeneficiosDefinidosMiembro" xlink:label="lbl5219" xlink:type="locator" />
+    <link:presentationArc xlink:from="lbl5182" xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child" xlink:type="arc" xlink:to="lbl5219" order="380.0" />
+  </link:presentationLink>
+</link:linkbase>
+
